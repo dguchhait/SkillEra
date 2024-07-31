@@ -1,0 +1,140 @@
+.Header-explore {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 8% 0;
+
+  background-color: whitesmoke;
+  border-radius: 10px;
+  box-shadow: 0.2em 0.2em 0.4em rgba(0, 0, 0, 0.2);
+}
+
+.Header-content-explore {
+  max-width: 630px;
+}
+
+.Header-content-explore h5 {
+  margin-top: 0px;
+  font-size: 35px;
+  font-family: "inter", sans-serif;
+  color: blueviolet;
+}
+
+.Header-content-explore h1 {
+  font-size: 50px;
+  font-family: "inter", sans-serif;
+  line-height: 1.1;
+}
+
+.Header-content-explore p {
+  font-size: 25px;
+  margin: 20px 0px 30px;
+  color: #757575;
+}
+
+.btm-card {
+  display: flex;
+  max-width: 500px;
+}
+
+.btm-left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 20px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: 2px solid #e97862;
+  color: #ffffff;
+  background-color: #e97862;
+}
+
+.btm-right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+
+  margin-left: 15px;
+  font-weight: 500;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: 2px solid #e97862;
+  color: #e97862;
+  background-color: transparent;
+}
+
+a.btm-left-side:hover {
+  background-color: transparent;
+  color: #e97862;
+}
+a.btm-right-side:hover {
+  background-color: #e97862;
+  color: #ffffff;
+}
+
+.png-explore img {
+  width: 450px;
+  height: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+  .Header-content-explore h1 {
+    font-size: 18px;
+  }
+
+  .Header-content-explore h5 {
+    font-size: 36px;
+  }
+
+  .Header-content-explore p {
+    font-size: 18px;
+  }
+
+  .png-explore img {
+    margin-top: 0.5rem;
+    width: 320px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Header-explore {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Header-explore {
+    padding: 42px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Header-content-explore h5 {
+    font-size: 32px;
+  }
+
+  .Header-content-explore p {
+    font-size: 16px;
+  }
+
+  .Header-content-explore a {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: #ffffff;
+}
+
+.service-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.service-item img {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+.service-item-main {
+  color: #e97862;
+}
+
+.service-item h5 {
+  font-weight: bold;
+  color: #661f60;
+}
+
+.service-item p {
+  margin: 0;
+}

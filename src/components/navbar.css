@@ -1,0 +1,19 @@
+a.iconSkillera {
+  color: rgb(9, 2, 113);
+  font-weight: 900;
+  font-family: cursive;
+  font-size: 2em;
+}
+
+a.titleColor {
+  color: #222;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0 20px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+a.titleColor:hover {
+  text-decoration: none;
+  color: rgb(131, 10, 142);
+}

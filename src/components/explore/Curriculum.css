@@ -1,0 +1,51 @@
+.offerings-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .offerings-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .offerings-content h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .offerings-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .offerings-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .offering {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .offering h3 {
+    font-size: 18px;
+    color: #0073e6;
+    margin-bottom: 10px;
+  }
+  
+  .offering p {
+    font-size: 14px;
+    color: #333;
+  }
+  

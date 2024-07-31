@@ -1,0 +1,61 @@
+.curriculum-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.module-list {
+  width: 40%;
+}
+
+.module-item {
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.module-item.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.lecture-list {
+  width: 55%;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.lecture-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}

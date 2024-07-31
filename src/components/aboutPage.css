@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.section-title {
+  color: #e97862;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+.highlight {
+  color: #661f60;
+  font-weight: bold;
+}
+.stats-card {
+  background-color: #e97862;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.quote {
+  color: #661f60;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.profile-card {
+  overflow: hidden;
+  text-align: center;
+  margin: 20px;
+}
+.profile-card img {
+  width: 400px;
+  height: 300px;
+}
+.profile-card h3 {
+  margin: 10px 0;
+  color: #800080;
+  color: #e97862;
+  font-weight: bold;
+}
